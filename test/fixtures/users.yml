@@ -1,2 +1,5 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
+Viral:
+  name: Viral Parekh
+  email: viral.parekh@mirraw.com
+  password_digest: <%= User.digest('123456') %>
